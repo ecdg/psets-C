@@ -36,7 +36,7 @@ int main(int argc, string argv[])
     string pt = get_string("plaintext: ");
     
     printf("ciphertext: ");
-    // Loop through text
+    // Converts plaintext to ciphertext
     for (int i = 0, j = 0, n = strlen(pt); i < n; i++)
     {            
         // Get key for this letter
