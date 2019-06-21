@@ -9,7 +9,7 @@ int h;
 
 int main(void)
 {
-    // User prompts the height
+    // Prompts user to input height
     do
     {
         h = get_int("Select the pyramid's height from levels 1 to 8: ");
