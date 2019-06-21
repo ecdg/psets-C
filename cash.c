@@ -1,5 +1,5 @@
 // Implementation of Greedy algorithm
-// Program allows the user to prompt how much change is owed
+// Program allows the user to input how much change is owed
 // Then prints the minimum number of coins with which that change can be made
 
 #include <cs50.h>
