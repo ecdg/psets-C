@@ -15,8 +15,7 @@ int main(int argc, string argv[])
     }
     else 
     {
-        /* Iterates over each char and sends an error when programs receives 
-         * a non-alphabetical character */
+        // Sends an error when program receives a non-alphabetical character
         for (int i = 0, n = strlen(argv[1]); i < n; i++)
         {
             if (!isalpha(argv[1][i]))
