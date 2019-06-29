@@ -1,4 +1,4 @@
-// Resizes file by inputting on command line
+// Resizes file by the factor inputted on command line
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
