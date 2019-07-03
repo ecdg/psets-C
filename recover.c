@@ -9,14 +9,12 @@ int main(int argc, char *argv[])
         fprintf(stderr, "Usage: ./recover file\n");
         return 1;
     }
-    
-    argv[1] = memfile;
-    
+
     // Open memorycard file
-    FILE *file = fopen(memfile, "r");
+    FILE *file = fopen(argv[1], "r");
     if (file == NULL)
     {
-        fprintf(stderr, "Could not open %s.\n", memfile);
+        fprintf(stderr, "Could not open %s.\n", argv[1]);
         return 2;
     }
 
