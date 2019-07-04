@@ -10,7 +10,8 @@ int main(int argc, char *argv[])
         return 1;
     }
     
-    argv[1] = memfile;
+    // Remember filename
+    char *memfile = argv[1];
         
     // Open memorycard file
     FILE *file = fopen(memfile, "r");
