@@ -1,4 +1,4 @@
-// Copies a BMP file
+// Copies a BMP file and manipulates the pixels from the copy
 
 #include <stdio.h>
 #include <stdlib.h>
