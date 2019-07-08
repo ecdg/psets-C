@@ -9,6 +9,9 @@
 // (e.g., pneumonoultramicroscopicsilicovolcanoconiosis)
 #define LENGTH 45
 
+// Represents number of buckets in a hash table
+#define N 70000
+
 // Prototypes
 bool load(const char *dictionary);
 unsigned int size(void);
