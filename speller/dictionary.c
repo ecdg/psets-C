@@ -78,10 +78,12 @@ bool load(const char *dictionary)
         words++;
         int hashCode = hash(ptr->word);
 
-        // Points ptr->next to the pointer the head of the list is pointing to (first node)
         if (hashtable[hashCode] != NULL)
         {
+            // Points ptr->next to the pointer the head of the list is pointing to (first node)
             ptr->next = hashtable[hashCode];
+            // Safely re-assign the head pointer to the new node
+            hashtable[hashCode] = ptr;             
         }
         // Points the head of the list to the new node
         hashtable[hashCode] = ptr;
