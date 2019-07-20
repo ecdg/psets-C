@@ -1,4 +1,4 @@
-// Resizes file by the factor inputted on command line
+// Resizes a BMP file by the factor inputted on command line
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
     // Ensure proper usage
     if (argc != 4)
     {
-        fprintf(stderr, "Usage: n infile outfile\n");
+        fprintf(stderr, "Usage: ./resize n infile outfile\n");
         return 1;
     }
 
