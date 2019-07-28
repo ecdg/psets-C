@@ -2,7 +2,7 @@
 # User inputs how much change is owed
 # Program prints the minimum number of coins w/ which that change can be made
 
-from cs50 import get_int, get_float
+from cs50 import get_float
 
 
 def main():
