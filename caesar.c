@@ -17,7 +17,7 @@ int main(int argc, string argv[])
     // Converts argv[1] to an integer and storing it to a variable
     int key = atoi(argv[1]);
     
-    // Signifies an error when user inputs other than non-negative integers
+    // Signifies an error when user does not input a positive integer
     if (key <= 0)
     {
         printf("Usage: ./caesar key\n");
