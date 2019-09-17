@@ -81,12 +81,10 @@ bool load(const char *dictionary)
         if (hashtable[hashCode] != NULL)
         {
             // Points ptr->next to the pointer the head of the list is pointing to (first node)
-            ptr->next = hashtable[hashCode];
-            // Safely re-assign the head pointer to the new node
-            hashtable[hashCode] = ptr;             
+            ptr->next = hashtable[hashCode];            
         }
-        // Points the head of the list to the new node
-        hashtable[hashCode] = ptr;
+        // Safely re-assigns the head pointer to the new node
+        hashtable[hashCode] = ptr; 
     }
 
     // Close dictionary
